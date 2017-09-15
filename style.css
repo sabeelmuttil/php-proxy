@@ -1,0 +1,185 @@
+body, input
+{
+    font-family: "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+    color: #44352C;
+}
+h1{
+    color: white; 
+    font-family: "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+     
+    font-size: 50px; 
+    font-weight: normal;
+     
+     margin: 0 0 20px; 
+     text-align: center;
+      
+    text-shadow: 0 0 40px #ffbab3;
+}
+
+
+a
+{
+    color: #9B9C83;
+    text-decoration:none;
+    border-bottom: 1px orange dashed;
+}
+
+a:hover 
+{
+    color: #0080FF;
+}
+
+#container
+{
+    border: 1px #9B9C83 solid;
+    -moz-border-radius: 8px;
+    margin: auto;
+    padding: 5px;
+    width: 700px;
+}
+
+#title
+{
+    color: #CC6633;
+    margin: 0;
+}
+
+ul#navigation
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul#navigation
+{
+    float: right;
+}
+
+ul#form
+{
+    clear: both;
+
+    color: white;
+    height: 52px;
+    
+    
+    
+}
+
+ul#navigation li
+{
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    border-top: 2px #BFAA9B solid;
+}
+
+ul#navigation li a
+{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #AA8E79;
+    padding: 5px 15px;
+    margin-left: 1px;
+    text-decoration: none;
+    border-bottom: 0 #ffffff solid;
+}
+
+ul#navigation li  a:hover
+{
+    color: #44352C;
+}
+
+ul#form li
+{
+    width: 600px;
+    size:30px;
+    list-style-type: none;
+
+
+}
+
+#footer
+{
+    color: #9B9C83;
+    font-size: small;
+    text-align: right;
+}
+
+#address_bar
+{
+    border-top: 2px #BFAA9B solid;
+    border-bottom: 3px #44352C solid;
+    background-color: #AA8E79;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+#go
+{
+    background:transparent;
+  
+  border-radius: 5px;
+  text-shadow: 1px 1px 3px #0f0d0f;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 20px 9px 20px;
+  text-decoration: none;}
+  
+
+#address_box
+{
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #ffa853; 
+    color: white;
+    font-size: 20px;
+    outline: none;
+    height: 30px;
+    width: 500px;
+    background:transparent;
+}
+
+
+}
+
+.option
+{
+    padding: 2px 0;
+    background-color: #EEEBEA;
+}
+
+.option label
+{
+    border-bottom: 2px #ffffff solid;
+}
+
+form
+{
+    margin: 0;
+
+
+}
+
+#error, #auth
+{
+    background:transparent;
+    color: red;
+    width: 700px;
+    clear: both;
+}
+
+#auth
+{
+    background-color: #94C261;
+}
+
+#error p, #auth p, #auth form
+{
+    margin: 5px;
+
+}
